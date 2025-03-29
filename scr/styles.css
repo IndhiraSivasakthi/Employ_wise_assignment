@@ -1,0 +1,213 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Container */
+  .container {
+    width: 95%;
+    max-width: 700px; /* Increased width */
+    margin: 40px auto;
+    padding: 30px;
+    background: #ecf0f3;
+    box-shadow: 6px 6px 12px #b8bec4, -6px -6px 12px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Headings */
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  input {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    background: #ecf0f3;
+    box-shadow: inset 5px 5px 10px #b8bec4, inset -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: inset 3px 3px 8px #b8bec4, inset -3px -3px 8px #ffffff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px #b8bec4, -4px -4px 8px #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #2980b9;
+    box-shadow: inset 4px 4px 8px #b8bec4, inset -4px -4px 8px #ffffff;
+    transform: scale(1.03);
+  }
+  
+  button:active {
+    transform: scale(0.97);
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ecf0f3;
+    box-shadow: 6px 6px 12px #b8bec4, -6px -6px 12px #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #2c3e50; /* Added Border */
+    margin-top: 20px; /* Added space */
+  }
+  
+  th, td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #2c3e50; /* Darker Borders */
+  }
+  
+  th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  
+  td img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px #b8bec4, -2px -2px 5px #ffffff;
+  }
+  
+  /* Action Buttons */
+  .actions {
+    display: flex;
+    gap: 15px;  /* Increased spacing between buttons */
+    justify-content: center;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Edit Button - Green */
+  .edit-btn {
+    background: #27ae60; /* Green */
+    box-shadow: 4px 4px 8px #b8bec4, -4px -4px 8px #ffffff;
+  }
+  
+  .edit-btn:hover {
+    background: #219150;
+    box-shadow: inset 4px 4px 8px #b8bec4, inset -4px -4px 8px #ffffff;
+  }
+  
+  /* Delete Button - Red */
+  .delete-btn {
+    background: #e74c3c; /* Red */
+    box-shadow: 4px 4px 8px #b8bec4, -4px -4px 8px #ffffff;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+    box-shadow: inset 4px 4px 8px #b8bec4, inset -4px -4px 8px #ffffff;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px #b8bec4, -4px -4px 8px #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    transform: scale(1.05);
+  }
+  
+  .pagination button:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 98%;
+      padding: 20px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 12px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
