@@ -75,12 +75,16 @@ o	Password: cityslicka
 •	LocalStorage is used for authentication state.
 •	API doesn't persist delete operations (users reappear on refresh).
 •	Pagination is handled dynamically based on API response.
+
 Author
 
 INDHIRA SIVASAKTHI
-Email: sivasakthiindhira@gmail.com
-GitHub: https://github.com/IndhiraSivasakthi/
-LinkedIn: https://www.linkedin.com/in/indhira-siva-sakthi-b50209334/
+
+1.Email: sivasakthiindhira@gmail.com
+
+2.GitHub: https://github.com/IndhiraSivasakthi/
+
+3.LinkedIn: https://www.linkedin.com/in/indhira-siva-sakthi-b50209334/
 
 
 
